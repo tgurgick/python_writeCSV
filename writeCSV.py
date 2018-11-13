@@ -10,10 +10,11 @@ __license__ = "GPL"
 __version__ = "1.1"
 __status__ = "active"
 
+import pandas as pd
+import csv
+import os
+
 def writeCSV(data,filename):
-	import pandas as pd
-	import csv
-	import os
 	cwd = os.getcwd()
 	print("Current directory: %s" %(cwd))
 	path = '%s/%s.csv' %(cwd,filename)
