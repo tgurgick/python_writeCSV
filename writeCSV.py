@@ -1,7 +1,14 @@
 ### STAND ALONE FUNCTION 
 ### FOR QUICKLY WRITING ONE OR MANY FILES TO A CSV as dataframe 
-### v 1.0 NOVEMBER 2018 
+### v 1.1 NOVEMBER 2018 
 ### BY TGURGICK
+
+__author__ = "Trevor Gurgick"
+__copyright__ = "Copyright (c) 2018, Trevor Gurgick"
+
+__license__ = "GPL"
+__version__ = "1.1"
+__status__ = "active"
 
 def writeCSV(data,filename):
 	import pandas as pd
